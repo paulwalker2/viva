@@ -1,0 +1,18 @@
+public class Calculator {
+    public static void add(Integer a, Integer b){
+        System.debug('Addition is '+(a+b));
+    }
+    public static void sub(Integer a, Integer b){
+        System.debug('Subtraction is '+(a-b));
+    }
+    public static void mul(Integer a, Integer b){
+        System.debug('Multiplication is '+(a*b));
+    }
+    public static void div(Integer a, Integer b){
+        if(b == 0){
+            System.debug('Nahi hoga');
+        } else {
+            System.debug('Division is '+(a/b));
+        }
+    }
+}
